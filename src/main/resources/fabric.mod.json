@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "additionsmod",
+	"version": "1.0.0",
+	"name": "Must Have Additions Mod",
+	"description": "Additions that should be in the main game, but for some reason aren't. Some are great, some are silly, but all are important!",
+	"authors": [
+		"VoXXuLLoN"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/additionsmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.alex.additionsmod.MustHaveAdditions"
+		],
+		"fabric-datagen": [
+			"com.alex.additionsmod.MustHaveAdditionsDataGenerator"
+		],
+		"client": [
+			"com.alex.additionsmod.MustHaveAdditionsClient"
+		]
+	},
+	"mixins": [
+		"additionsmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
