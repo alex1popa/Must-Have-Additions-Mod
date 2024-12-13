@@ -13,7 +13,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
-
+    //Item Groups added
     public static final ItemGroup Must_Have_Building_Blocks = Registry.register(Registries.ITEM_GROUP, Identifier.of(MustHaveAdditions.MOD_ID, "must_have_building_blocks"),
             FabricItemGroup.builder()
                     .icon(() -> new ItemStack(ModBlocks.RUBY_BLOCK))
@@ -29,7 +29,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RUBY);
                     })).build());
 
-
+    //Methods
     public static void registerItemGroups(){
         MustHaveAdditions.LOGGER.info("Registering item groups for " + MustHaveAdditions.MOD_ID);
 
