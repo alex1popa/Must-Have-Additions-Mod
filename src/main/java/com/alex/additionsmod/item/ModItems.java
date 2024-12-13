@@ -19,7 +19,7 @@ public class ModItems {
     }
 
     public static void registerModItems(){
-        MustHaveAdditions.LOGGER.info("Added items for " + MustHaveAdditions.MOD_ID);
+        MustHaveAdditions.LOGGER.info("Registering items for " + MustHaveAdditions.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(RUBY);
