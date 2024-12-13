@@ -1,6 +1,7 @@
 package com.alex.additionsmod;
 
 import com.alex.additionsmod.block.ModBlocks;
+import com.alex.additionsmod.item.ModItemGroups;
 import com.alex.additionsmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -17,5 +18,6 @@ public class MustHaveAdditions implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModItemGroups.registerItemGroups();
 	}
 }

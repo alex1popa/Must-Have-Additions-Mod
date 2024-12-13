@@ -38,9 +38,5 @@ public class ModBlocks {
 
     public static void registerModBlocks() {
         MustHaveAdditions.LOGGER.info("Registering blocks for " + MustHaveAdditions.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(RUBY_BLOCK);
-        });
     }
 }
