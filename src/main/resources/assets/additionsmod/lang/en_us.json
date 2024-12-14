@@ -2,7 +2,9 @@
   "item.additionsmod.ruby": "Ruby",
 
   "block.additionsmod.ruby_block": "Ruby Block",
+  "block.additionsmod.sand_layer": "Sand Layer",
 
   "itemgroup.additionsmod.building_blocks": "Must Have Building Blocks",
-  "itemgroup.additionsmod.items": "Must Have Ingredients"
+  "itemgroup.additionsmod.items": "Must Have Ingredients",
+  "itemgroup.additionsmod.vanilla": "Must Have Vanilla"
 }
