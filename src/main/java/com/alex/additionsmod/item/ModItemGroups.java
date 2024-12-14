@@ -29,6 +29,14 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.additionsmod.building_blocks"))
                     .entries(((displayContext, entries) -> {
                         entries.add(ModBlocks.RUBY_BLOCK);
+                    })).build());
+    public static final ItemGroup Must_Have_Natural_Blocks = Registry.register(Registries.ITEM_GROUP, Identifier.of(MustHaveAdditions.MOD_ID, "must_have_naturals"),
+            FabricItemGroup.builder()
+                    .icon(() -> new ItemStack(ModBlocks.RUBY_ORE))
+                    .displayName(Text.translatable("itemgroup.additionsmod.naturals"))
+                    .entries(((displayContext, entries) -> {
+                        entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
                         entries.add(ModBlocks.SAND_LAYER);
                         entries.add(ModBlocks.RED_SAND_LAYER);
                     })).build());
@@ -39,6 +47,7 @@ public class ModItemGroups {
                     .entries(((displayContext, entries) -> {
                         entries.add(ModItems.RUBY);
                     })).build());
+
 
     //Methods
     public static void registerItemGroups(){

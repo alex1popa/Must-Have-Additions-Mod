@@ -17,13 +17,17 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
-                .add(ModBlocks.RUBY_BLOCK);
+                .add(ModBlocks.RUBY_BLOCK)
+                .add(ModBlocks.RUBY_ORE)
+                .add(ModBlocks.DEEPSLATE_RUBY_ORE);
 
         getOrCreateTagBuilder(BlockTags.BEACON_BASE_BLOCKS)
                 .add(ModBlocks.RUBY_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.RUBY_BLOCK);
+                .add(ModBlocks.RUBY_BLOCK)
+                .add(ModBlocks.RUBY_ORE)
+                .add(ModBlocks.DEEPSLATE_RUBY_ORE);
 
     }
 }
