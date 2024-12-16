@@ -1,14 +1,15 @@
 {
-  "item.additionsmod.ruby": "Ruby",
+  "itemgroup.additionsmod.building_blocks": "Must Have Building Blocks",
+  "itemgroup.additionsmod.items": "Must Have Ingredients",
+  "itemgroup.additionsmod.vanilla": "Must Have Vanilla",
+  "itemgroup.additionsmod.naturals": "Must Have Natural Blocks",
 
+  "item.additionsmod.ruby": "Ruby",
   "block.additionsmod.ruby_block": "Ruby Block",
   "block.additionsmod.ruby_ore": "Ruby Ore",
   "block.additionsmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
 
   "block.additionsmod.sand_layer": "Sand Layer",
-  "block.additionsmod.red_sand_layer": "Red Sand Layer",
+  "block.additionsmod.red_sand_layer": "Red Sand Layer"
 
-  "itemgroup.additionsmod.building_blocks": "Must Have Building Blocks",
-  "itemgroup.additionsmod.items": "Must Have Ingredients",
-  "itemgroup.additionsmod.vanilla": "Must Have Vanilla"
 }
