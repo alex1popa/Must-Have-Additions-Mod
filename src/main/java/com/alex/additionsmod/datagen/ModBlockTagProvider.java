@@ -19,7 +19,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.RUBY_BLOCK)
                 .add(ModBlocks.RUBY_ORE)
-                .add(ModBlocks.DEEPSLATE_RUBY_ORE);
+                .add(ModBlocks.DEEPSLATE_RUBY_ORE)
+                .add(ModBlocks.END_STONE_STAIRS)
+                .add(ModBlocks.END_STONE_SLAB)
+                .add(ModBlocks.END_STONE_WALL)
+                .add(ModBlocks.END_STONE_BUTTON)
+                .add(ModBlocks.END_STONE_PRESSURE_PLATE);
 
         getOrCreateTagBuilder(BlockTags.BEACON_BASE_BLOCKS)
                 .add(ModBlocks.RUBY_BLOCK);
@@ -29,5 +34,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RUBY_ORE)
                 .add(ModBlocks.DEEPSLATE_RUBY_ORE);
 
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.END_STONE_STAIRS)
+                .add(ModBlocks.END_STONE_SLAB)
+                .add(ModBlocks.END_STONE_WALL)
+                .add(ModBlocks.END_STONE_BUTTON)
+                .add(ModBlocks.END_STONE_PRESSURE_PLATE);
+
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.END_STONE_WALL);
     }
 }

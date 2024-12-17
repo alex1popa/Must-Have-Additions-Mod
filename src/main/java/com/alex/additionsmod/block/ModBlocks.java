@@ -15,7 +15,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
-    //Blocks added
+    //region Ruby blocks
     public final static Block RUBY_BLOCK = registerBlock("ruby_block",
             new Block(AbstractBlock.Settings.create()
                     .mapColor(MapColor.RED)
@@ -23,7 +23,6 @@ public class ModBlocks {
                     .requiresTool()
                     .strength(5.0F, 6.0F)
                     .sounds(BlockSoundGroup.METAL)));
-
     public static final Block RUBY_ORE = registerBlock("ruby_ore",
             new ExperienceDroppingBlock(
                     UniformIntProvider.create(3, 7),
@@ -34,7 +33,9 @@ public class ModBlocks {
                     UniformIntProvider.create(3, 7),
                     AbstractBlock.Settings.copyShallow(RUBY_ORE).mapColor(MapColor.DEEPSLATE_GRAY).strength(4.5F, 3.0F).sounds(BlockSoundGroup.DEEPSLATE)
             ));
+    //endregion
 
+    //region Sand blocks
     public static final Block SAND_LAYER = registerBlock("sand_layer",
             new SnowBlock(AbstractBlock.Settings.create()
                     .mapColor(MapColor.PALE_YELLOW)
@@ -48,7 +49,6 @@ public class ModBlocks {
                     .pistonBehavior(PistonBehavior.DESTROY)
             )
     );
-
     public static final Block RED_SAND_LAYER = registerBlock("red_sand_layer",
             new SnowBlock(AbstractBlock.Settings.create()
                     .mapColor(MapColor.ORANGE)
@@ -62,6 +62,21 @@ public class ModBlocks {
                     .pistonBehavior(PistonBehavior.DESTROY)
             )
     );
+    //endregion
+
+    //region End stone blocks
+    public static final Block END_STONE_STAIRS = registerBlock("end_stone_stairs",
+            new StairsBlock(Blocks.END_STONE.getDefaultState(),
+                    AbstractBlock.Settings.create().mapColor(MapColor.PALE_YELLOW).requiresTool().strength(3.0F, 9.0F)));
+    public static final Block END_STONE_SLAB = registerBlock("end_stone_slab",
+            new SlabBlock(AbstractBlock.Settings.create().mapColor(MapColor.PALE_YELLOW).requiresTool().strength(3.0F, 9.0F)));
+    public static final Block END_STONE_WALL = registerBlock("end_stone_wall",
+            new WallBlock(AbstractBlock.Settings.create().mapColor(MapColor.PALE_YELLOW).requiresTool().strength(3.0F, 9.0F)));
+    public static final Block END_STONE_PRESSURE_PLATE = registerBlock("end_stone_pressure_plate",
+            new PressurePlateBlock(BlockSetType.STONE, AbstractBlock.Settings.create().mapColor(MapColor.PALE_YELLOW).requiresTool().strength(3.0f)));
+    public static final Block END_STONE_BUTTON = registerBlock("end_stone_button",
+            new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.create().mapColor(MapColor.PALE_YELLOW).requiresTool().strength(3.0f).noCollision()));
+    //endregion
 
     //Methods
     private static Block registerBlock(String name, Block block) {

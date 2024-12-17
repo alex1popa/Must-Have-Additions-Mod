@@ -3,6 +3,7 @@
   "itemgroup.additionsmod.items": "Must Have Ingredients",
   "itemgroup.additionsmod.vanilla": "Must Have Vanilla",
   "itemgroup.additionsmod.naturals": "Must Have Natural Blocks",
+  "itemgroup.additionsmod.redstone": "Must Have Redstone Blocks",
 
   "item.additionsmod.ruby": "Ruby",
   "block.additionsmod.ruby_block": "Ruby Block",
@@ -10,6 +11,12 @@
   "block.additionsmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
 
   "block.additionsmod.sand_layer": "Sand Layer",
-  "block.additionsmod.red_sand_layer": "Red Sand Layer"
+  "block.additionsmod.red_sand_layer": "Red Sand Layer",
+
+  "block.additionsmod.end_stone_stairs": "End Stone Stairs",
+  "block.additionsmod.end_stone_slab": "End Stone Slab",
+  "block.additionsmod.end_stone_wall": "End Stone Wall",
+  "block.additionsmod.end_stone_pressure_plate": "End Stone Pressure Plate",
+  "block.additionsmod.end_stone_button": "End Stone Button"
 
 }

@@ -9,9 +9,9 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    //Items added
+    //region Ruby items
     public static final Item RUBY = registerItem("ruby", new Item(new Item.Settings()));
-
+    //endregion
 
     //Methods
     private static Item registerItem(String name, Item item){

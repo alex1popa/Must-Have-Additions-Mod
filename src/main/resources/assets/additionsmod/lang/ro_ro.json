@@ -3,6 +3,7 @@
   "itemgroup.additionsmod.items": "Ingrediente necesare",
   "itemgroup.additionsmod.vanilla": "Elemente existente necesare",
   "itemgroup.additionsmod.naturals": "Blocuri naturale necesare",
+  "itemgroup.additionsmod.redstone": "Redstone necesar",
 
   "item.additionsmod.ruby": "Rubin",
   "block.additionsmod.ruby_block": "Bloc de rubin",
@@ -10,6 +11,12 @@
   "block.additionsmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
 
   "block.additionsmod.sand_layer": "Strat de nisip",
-  "block.additionsmod.red_sand_layer": "Strat de nisip rosu"
+  "block.additionsmod.red_sand_layer": "Strat de nisip rosu",
+
+  "block.additionsmod.end_stone_stairs": "Trepte de piatră din End",
+  "block.additionsmod.end_stone_slab": "Lespede de piatră din End",
+  "block.additionsmod.end_stone_wall": "Zid de piatră din End",
+  "block.additionsmod.end_stone_pressure_plate": "Placa de presiune de piatră din End",
+  "block.additionsmod.end_stone_button": "Buton de piatră din End"
 
 }
