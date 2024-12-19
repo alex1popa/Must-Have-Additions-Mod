@@ -75,7 +75,7 @@ public class ModBlocks {
     public static final Block END_STONE_PRESSURE_PLATE = registerBlock("end_stone_pressure_plate",
             new PressurePlateBlock(BlockSetType.STONE, AbstractBlock.Settings.create().mapColor(MapColor.PALE_YELLOW).requiresTool().strength(3.0f)));
     public static final Block END_STONE_BUTTON = registerBlock("end_stone_button",
-            new ButtonBlock(BlockSetType.STONE, 10, AbstractBlock.Settings.create().mapColor(MapColor.PALE_YELLOW).requiresTool().strength(3.0f).noCollision()));
+            new ButtonBlock(BlockSetType.STONE, 20, AbstractBlock.Settings.create().mapColor(MapColor.PALE_YELLOW).requiresTool().strength(3.0f).noCollision().pistonBehavior(PistonBehavior.DESTROY)));
     //endregion
 
     //Methods

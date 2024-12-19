@@ -17,6 +17,9 @@
   "block.additionsmod.end_stone_slab": "Lespede de piatră din End",
   "block.additionsmod.end_stone_wall": "Zid de piatră din End",
   "block.additionsmod.end_stone_pressure_plate": "Placa de presiune de piatră din End",
-  "block.additionsmod.end_stone_button": "Buton de piatră din End"
+  "block.additionsmod.end_stone_button": "Buton de piatră din End",
+
+  "painting.additionsmod.diamond.title": "Diamant",
+  "painting.additionsmod.diamond.author": "UnNerfAble"
 
 }

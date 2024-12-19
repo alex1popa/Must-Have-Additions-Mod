@@ -17,6 +17,9 @@
   "block.additionsmod.end_stone_slab": "End Stone Slab",
   "block.additionsmod.end_stone_wall": "End Stone Wall",
   "block.additionsmod.end_stone_pressure_plate": "End Stone Pressure Plate",
-  "block.additionsmod.end_stone_button": "End Stone Button"
+  "block.additionsmod.end_stone_button": "End Stone Button",
+
+  "painting.additionsmod.diamond.title": "Diamond",
+  "painting.additionsmod.diamond.author": "UnNerfAble"
 
 }
